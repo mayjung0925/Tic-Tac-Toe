@@ -1,4 +1,17 @@
 
+body{
+    background-color: rgb(167, 241, 247);
+    font-family: 'Dongle', sans-serif;
+}
+h1{
+    font-size: 5em;
+    margin : 0px;
+    text-align: center;
+}
+h2{
+    font-size: 3em;
+    margin: 0px;
+}
 #board{
     padding-top: 3em ;
     text-align: center;
@@ -10,24 +23,45 @@
     width: 100px;
     float: left;
     cursor: pointer;
+    text-align: center;
+    font-size: 5em;
+    line-height:85px;
     
 }
 .row{
     clear: both;
-    width:302px;
+    width:306px;
     margin: 0 auto;
 }
 .top{
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
 }
 .bottom{
-    border-top:1px solid black;
+    border-top:3px solid black;
 }
 
 .left{
-    border-right: 1px solid black;
+    border-right: 3px solid black;
 }
 .right{
-    border-left: 1px solid black;
+    border-left: 3px solid black;
+}
+.btn{
+    clear : both;
+    text-align:  center;
+
+}
+button{
+
+    display: inline-block;
+    width : 150px;
+    height:50px;
+    background-color: rgba(251, 252, 248, 0.733);
+    font-size: 2rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 50px;
+
 }
 
